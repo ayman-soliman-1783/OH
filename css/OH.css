@@ -5,6 +5,7 @@ html {
 
 body, * {
   cursor: url("../assets/cur.svg") 50 50, auto;
+  font-family: sans-serif;
 }
 
 html body img, html body video, html body *:has(> img, + img, > video, + video) {
