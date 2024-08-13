@@ -20,6 +20,12 @@ html body img, html body video, html body *:has(> img, + img, > video, + video) 
   color: white;
 }
 
+.video-frame video {
+  width: 100% !important;
+  height: 100% !important;
+  scale: 1.5;
+}
+
 .tag {
   display: inline-block;
   padding: 0.25rem 0.75rem;
@@ -216,7 +222,15 @@ header > div p {
 
 .project > .frame > * {
   width: 100%;
-  object-fit: cover;
+}
+
+.project:has(.frame) {
+  height: 100%;
+}
+
+.project > .frame video {
+  height: 100%;
+  scale: 1.3;
 }
 
 /* end projects */
