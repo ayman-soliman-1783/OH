@@ -1,0 +1,81 @@
+.collage.profile img {
+  @media (max-width: 992px) {
+    max-width: 100%;
+  }
+}
+
+#clients-section img {
+  display: block;
+  max-width: 180px;
+  scale: minmax(0.8, 1.6);
+}
+
+@media (max-width: 768px) {
+  #clients-section img {
+    max-width: 100%;
+  }
+}
+
+#clients-section img:not([alt="Here"]) {
+  filter: invert(1);
+}
+
+#clients-section,
+#clients-section #clients {
+  margin: 10rem auto !important;
+}
+
+#clients-section #clients > .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 5vw, 5rem);
+
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+.row > div {
+  width: fit-content;
+  flex-basis: 50%;
+}
+
+@media (min-width: 992px) {
+  .row > div {
+    flex-basis: calc(100% / 3);
+  }
+}
+
+/* Amr Khaled's code */
+
+.profileTitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+  .profileTitle {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .profileTitle {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profileTitle {
+    font-size: 4em;
+  }
+}
+
+.texts .tag + p {
+  font-size: 2rem;
+}
+
+.fs-sm {
+  font-size: 15px !important;
+}

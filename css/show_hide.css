@@ -1,0 +1,29 @@
+/* Amr Khaled's Code */
+
+.hidden {
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.transition-1 {
+  transition: 1000ms ease;
+}
+
+.delay-1 {
+  transition-delay: 200ms;
+}
+
+.delay-2 {
+  transition-delay: 400ms;
+}
+
+.delay-md-2 {
+  @media (min-width: 768px) {
+    transition-delay: 400ms !important;
+  }
+}

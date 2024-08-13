@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — OH.STUDIO</title>
+    <link
+      rel="icon"
+      href="https://framerusercontent.com/images/vnj4xfujsIqj6glhDUe5Cv6U.jpg"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="css/OH.css" />
+    <link rel="stylesheet" href="css/show_hide.css" />
+    <script defer src="js/scroll_animations.js"></script>
+  </head>
+
+  <style>
+    main .container.contact {
+      height: calc(94vh - 20.5rem);
+      padding-top: 6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Amr Khaled's code */
+
+    @media only screen and (max-width: 576px) {
+      .contact > * {
+        font-size: 1.75em !important;
+      }
+    }
+  </style>
+
+  <body>
+    <nav>
+      <a href="index.html"><button>Home</button></a>
+      <a href="profile.html"><button>Profile</button></a>
+      <a href="contact.html" class="active"><button>Contact</button></a>
+    </nav>
+
+    <main>
+      <div class="container contact hidden">
+        <h2 class="text-nowrap">Let's work together.</h2>
+        <a
+          href="mailto:aymansoliman1783@gmail.com"
+          class="text-secondary text-decoration-none"
+          >Get in touch.</a
+        >
+      </div>
+    </main>
+
+    <footer class="my-3">
+      <div
+        class="container d-flex flex-md-row flex-column justify-content-between align-items-center gap-2"
+      >
+        <div
+          class="item d-flex flex-column flex-md-row justify-content-center align-items-center gap-2"
+        >
+          <img src="assets/logo.jpg" alt="" />
+          <span id="copyright">&copy; Oli Harris 2023</span>
+        </div>
+        <div class="item social">
+          <ul class="d-flex gap-3 text-center">
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Linkedin</a></li>
+            <li><a href="">Mail</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7rem;
+    background-image: linear-gradient(to bottom, white 10%, transparent);
+}
+
+nav {
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+nav:has(img[alt="close"]):hover {
+    background-color: black;
+    backdrop-filter: invert();
+
+    & img {
+        filter: invert(1);
+        cursor: url("../assets/cur.svg") 50 50, auto;
+    }
+}
+
+nav a:has(img[alt="close"]) {
+    padding: 0 !important;
+
+    &>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+nav a, nav div, nav img {
+    cursor: url("../assets/cur.svg") 50 50, auto !important;
+}
+
+main .container img, video {
+    border-radius: 1rem;
+}
+
+main .container .collage {
+    display: contents;
+    max-width: 100%;
+}
+
+main .container .collage.trio * {
+    width: calc(100% / 3 - 1rem);
+}
+
+@media (min-width: 992px) {
+    main .container .collage {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    main .container .collage:not(.trio) *{
+        width: calc(50% - 0.75rem);
+    }
+
+    main .container #about {
+        font-size: small;
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+
+    #overview {
+        max-width: 50%;
+        font-size: small;
+        margin: 3rem 0;
+    }
+
+    #about {
+        & *+* {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+#about {
+    margin: 3rem 0;
+    width: 90%;
+    font-size: medium;
+
+    & *+* {
+        margin-top: 1rem;
+    }
+}
+
+.tag:not(.role) {
+    margin-top: 2rem;
+}
