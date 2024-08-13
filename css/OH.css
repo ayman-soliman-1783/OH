@@ -56,7 +56,7 @@ nav {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 999;
+  z-index: 1;
 }
 
 nav a {
@@ -159,7 +159,7 @@ header > div p {
     margin: 3rem;
     opacity: 0;
     transition: 0.5s;
-    z-index: 9;
+    z-index: 1;
   }
 }
 
