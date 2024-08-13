@@ -1,4 +1,4 @@
 # OH
-# A clone of: https://oh.studio/
+## A clone of: https://oh.studio/
 
-## SHOUT-OUT TO: https://github.com/amr-khaled27
+### SHOUT-OUT TO: https://github.com/amr-khaled27
