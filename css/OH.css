@@ -4,7 +4,6 @@ html {
 }
 
 body, * {
-  font-family: "Neue Montreal Medium", sans-serif;
   cursor: url("../assets/cur.svg") 50 50, auto;
 }
 
