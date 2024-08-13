@@ -13,7 +13,7 @@ html body img, html body video, html body *:has(> img, + img, > video, + video) 
 }
 
 * {
-  line-height: 1.2;
+  line-height: 1.6;
 }
 
 *::selection {
