@@ -20,6 +20,10 @@ html body img, html body video, html body *:has(> img, + img, > video, + video) 
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .video-frame video {
   width: 100% !important;
   height: 100% !important;
@@ -138,6 +142,7 @@ header > div p {
 
 .project.locked .texts {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -175,11 +180,25 @@ header > div p {
 }
 
 .project .texts {
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   font-size: 0.8rem;
   opacity: 0;
   transition: 0.5s;
   color: black;
+}
+
+.project .frame {
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .project > .frame {
+    height: 90%;
+  }
+
+  .project .texts {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -211,8 +230,6 @@ header > div p {
     width: 100%;
     height: 100%;
     display: block;
-    object-fit: cover;
-    object-position: 50% 50%;
   }
 }
 
