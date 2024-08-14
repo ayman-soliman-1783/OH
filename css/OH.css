@@ -322,6 +322,11 @@ footer .item > ul {
   }
 }
 
+.item.social ul {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* Amr khaled's code */
 h2.mainText {
   width: 90%;
