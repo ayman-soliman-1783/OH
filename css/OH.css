@@ -110,6 +110,10 @@ nav a img:focus {
 
 /* start header */
 
+header.home {
+  width: 85%;
+}
+
 header {
   min-height: 30rem;
   width: 70%;
