@@ -117,7 +117,7 @@ header.home {
 header {
   min-height: 30rem;
   width: 70%;
-  margin: 1vh auto -10vh auto;
+  margin: 1vh auto -5vh auto;
 } 
 
 header > div {
