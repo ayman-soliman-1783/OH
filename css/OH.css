@@ -45,6 +45,7 @@ a {
   display: inline-block;
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
+  font-size: small;
 }
 
 .tag:not(.live) {
@@ -110,8 +111,9 @@ nav a img:focus {
 /* start header */
 
 header {
-  margin-top: 1vh;
   min-height: 30rem;
+  width: 70%;
+  margin: 1vh auto -10vh auto;
 } 
 
 header > div {
