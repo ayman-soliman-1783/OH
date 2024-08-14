@@ -20,7 +20,7 @@ nav:has(img[alt="close"]):hover {
 
     & img {
         filter: invert(1);
-        cursor: url("../assets/cur.svg") 50 50, auto;
+        cursor: url("../assets/cur.svg") 50 50, pointer;
     }
 }
 
@@ -34,7 +34,7 @@ nav a:has(img[alt="close"]) {
 }
 
 nav a, nav div, nav img {
-    cursor: url("../assets/cur.svg") 50 50, auto !important;
+    cursor: url("../assets/cur.svg") 50 50, pointer !important;
 }
 
 main .container img, video {

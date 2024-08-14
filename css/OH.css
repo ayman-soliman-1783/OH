@@ -4,12 +4,17 @@ html {
 }
 
 body, * {
-  cursor: url("../assets/cur.svg") 50 50, auto;
+  cursor: url("../assets/cur.svg") 50 50, pointer;
   font-family: sans-serif;
 }
 
 html body img, html body video, html body *:has(> img, + img, > video, + video) {
-  cursor: url("../assets/white_cur.svg") 50 50, auto;
+  cursor: url("../assets/white_cur.svg") 50 50, pointer;
+}
+
+.wrapper div,
+.wrapper img {
+  cursor: url("../assets/cur.svg") 50 50, pointer !important;
 }
 
 * {
@@ -49,7 +54,7 @@ a {
 /* start nav */
 
 nav, nav button, nav a, nav img, nav * {
-  cursor: url(../assets/cur.svg) 50 50, auto !important;
+  cursor: url(../assets/cur.svg) 50 50, pointer !important;
 }
 
 nav {
@@ -235,7 +240,7 @@ header > div p {
 }
 
 .project > .frame > .texts > p {
-  cursor: url("../assets/white_cur.svg") 50 50, auto !important;
+  cursor: url("../assets/white_cur.svg") 50 50, pointer !important;
 }
 
 .project > .frame > * {
