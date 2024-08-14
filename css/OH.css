@@ -12,6 +12,11 @@ html body img, html body video, html body *:has(> img, + img, > video, + video) 
   cursor: url("../assets/white_cur.svg") 50 50, pointer;
 }
 
+footer a, 
+footer a img {
+  cursor: url("../assets/cur.svg") 50 50, pointer;
+}
+
 .wrapper div,
 .wrapper img {
   cursor: url("../assets/cur.svg") 50 50, pointer !important;
@@ -105,9 +110,9 @@ nav a img:focus {
 /* start header */
 
 header {
-  margin-top: 8rem;
+  margin-top: 1vh;
   min-height: 30rem;
-}
+} 
 
 header > div {
   display: flex;
@@ -143,7 +148,6 @@ header > div p {
 
 .project {
   position: relative;
-  overflow: hidden;
   transition: 0.5s;
 }
 
@@ -196,6 +200,12 @@ header > div p {
 
 .project .frame {
   height: 100%;
+}
+
+@media (max-width: 576px) {
+  .project > .frame {
+    height: 82% !important;
+  }
 }
 
 @media (max-width: 1200px) {
