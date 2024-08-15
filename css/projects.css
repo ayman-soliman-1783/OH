@@ -52,7 +52,7 @@ main .container .collage.trio * {
     }
 
     main .container #about {
-        font-size: small;
+        font-size: 14px;
         display: flex;
         justify-content: space-between;
         gap: 4rem;
@@ -60,7 +60,7 @@ main .container .collage.trio * {
 
     #overview {
         max-width: 50%;
-        font-size: small;
+        font-size: 14px;
         margin: 3rem 0;
     }
 
