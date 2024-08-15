@@ -240,23 +240,6 @@ header > div p {
     height: 100%;
     display: block;
   }
-
-  .project::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 2;
-    opacity: 0;
-    transition: 0.5s;
-  }
-
-  .project:hover::before {
-    opacity: 1;
-  }
 }
 
 .project > .frame > * {

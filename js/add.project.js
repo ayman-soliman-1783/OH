@@ -89,7 +89,7 @@ let addproject = function (project) {
         let image = document.createElement("img");
         image.src = project.imageUrl;
         image.alt = project.title;
-        image.style.scale = "1.1";
+        image.style.scale = "1.2";
         frame.appendChild(image);
         contents.appendChild(frame);
     }
