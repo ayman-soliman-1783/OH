@@ -5,7 +5,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 7rem;
-    background-image: linear-gradient(to bottom, white 10%, transparent);
+    background-image: linear-gradient(to bottom, white 0, transparent);
     z-index: 1;
 }
 
@@ -17,11 +17,6 @@ nav {
 nav:has(img[alt="close"]):hover {
     background-color: black;
     backdrop-filter: invert();
-
-    & img {
-        filter: invert(1);
-        cursor: url("../assets/cur.svg") 50 50, pointer;
-    }
 }
 
 nav a:has(img[alt="close"]) {
@@ -31,10 +26,6 @@ nav a:has(img[alt="close"]) {
         width: 2.5rem;
         height: 2.5rem;
     }
-}
-
-nav a, nav div, nav img {
-    cursor: url("../assets/cur.svg") 50 50, pointer !important;
 }
 
 main .container img, video {
