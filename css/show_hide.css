@@ -14,6 +14,13 @@
   transition: 1000ms ease;
 }
 
+.hidden.text {
+  transform: translateY(50px);
+}
+.show.text {
+  transform: translateY(0);
+}
+
 .delay-1 {
   transition-delay: 200ms;
 }

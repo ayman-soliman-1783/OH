@@ -16,7 +16,10 @@ nav {
 
 nav:has(img[alt="close"]):hover {
     background-color: black;
-    backdrop-filter: invert();
+    
+    & img[alt="close"] {
+        filter: invert(1);
+    }
 }
 
 nav a:has(img[alt="close"]) {

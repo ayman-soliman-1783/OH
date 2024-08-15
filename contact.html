@@ -13,7 +13,8 @@
 
   <style>
     body {
-      height: 100vh;
+      height: 98vh;
+      padding-bottom: 2vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -22,13 +23,19 @@
     nav {
       position: static;
       transform: translate(0, 0);
-    }
+    } 
 
     /* Amr Khaled's code */
 
+    @media only screen and (min-width: 576px) {
+      .contact > * {
+        font-size: 4em !important;
+      }
+    }
+
     @media only screen and (max-width: 576px) {
       .contact > * {
-        font-size: 1.75em !important;
+        font-size: 2em !important;
       }
     }
   </style>

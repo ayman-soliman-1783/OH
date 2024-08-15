@@ -63,7 +63,7 @@ nav {
 }
 
 nav a {
-  font-size: 14px;
+  font-size: small;
   padding: 0.6rem 1.5rem;
   border-radius: calc(2rem + 0.3rem);
 }
@@ -268,13 +268,14 @@ header > div p {
   align-items: center;
   
   & > * {
-    font-size: 3.5em;
-    font-weight: normal;
+    font-size: 2.5rem !important;
+    line-height: 1.2 !important;
+    font-weight: 500;
   }
 
   @media (max-width: 576px) {
     & > * {
-      font-size: 2.5em;
+      font-size: 2rem !important;
     }
   }
 }
