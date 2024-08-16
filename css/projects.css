@@ -14,11 +14,13 @@ nav {
     overflow: hidden;
 }
 
-nav:has(a:active),
-nav:has(img[alt="close"]):hover {
+.project.navigation:has(a:active),
+.project.navigation:hover,
+.project.navigation:focus-within,
+.project.navigation:focus-visible {
     background-color: black;
     
-    & img[alt="close"] {
+    & img {
         filter: invert(1);
     }
 }
