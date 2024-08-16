@@ -10,8 +10,12 @@ body::before {
 }
 
 nav {
-    transition: 0.5s;
+    transition: 0.0s !important;
     overflow: hidden;
+
+    @media (min-width: 1200px) {
+        transition: 0.5s !important;
+    }
 }
 
 .project.navigation:has(a:active),
