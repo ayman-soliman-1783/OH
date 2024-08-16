@@ -14,6 +14,7 @@ nav {
     overflow: hidden;
 }
 
+nav:has(a:active),
 nav:has(img[alt="close"]):hover {
     background-color: black;
     
