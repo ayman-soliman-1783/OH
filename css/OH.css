@@ -142,7 +142,7 @@ header > div p {
 
 .project {
   position: relative;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .project.locked .texts {
@@ -174,7 +174,7 @@ header > div p {
     height: 2.6rem;
     margin: 3rem;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.4s;
     z-index: 2;
   }
 }
@@ -188,7 +188,7 @@ header > div p {
   padding-top: 1rem;
   font-size: 0.8rem;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.4s;
   color: black;
 }
 
@@ -242,7 +242,7 @@ header > div p {
 @media (min-width: 1200px) {
   .project > .frame {
     filter: blur(0);
-    transition: 0.5s;
+    transition: 0.4s;
     width: 100%;
     height: 100%;
     display: block;

@@ -2,7 +2,7 @@
 
 .hidden {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(80px);
 }
 
 .show {
@@ -11,22 +11,22 @@
 }
 
 .transition-1 {
-  transition: 1000ms ease;
+  transition: 750ms ease;
 }
 
 .hidden.text {
-  transform: translateY(50px);
+  transform: translateY(40px);
 }
 .show.text {
   transform: translateY(0);
 }
 
 .delay-1 {
-  transition-delay: 200ms;
+  transition-delay: 125ms;
 }
 
 .delay-2 {
-  transition-delay: 400ms;
+  transition-delay: 250ms;
 }
 
 .delay-md-2 {

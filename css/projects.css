@@ -14,7 +14,7 @@ nav {
     overflow: hidden;
 
     @media (min-width: 1200px) {
-        transition: 0.5s !important;
+        transition: 0.4s !important;
     }
 }
 
