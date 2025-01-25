@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
+
+  font-size: 68.75%;
 }
 
 body, * {
@@ -132,6 +134,7 @@ header > div > .tags {
 }
 
 header > div p {
+  width: 80%;
   margin-bottom: 1rem;
   font-size: 72px;
 }
