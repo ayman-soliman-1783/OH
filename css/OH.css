@@ -32,7 +32,8 @@ a {
   display: inline-block;
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
-  font-size: small;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .tag:not(.live) {
